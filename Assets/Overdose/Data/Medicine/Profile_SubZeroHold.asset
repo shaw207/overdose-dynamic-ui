@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0f7d89420b644d1988c2bad67fa8e01, type: 3}
+  m_Name: Profile_SubZeroHold
+  m_EditorClassIdentifier: Assembly-CSharp::AdvancedMedicineProfile
+  Kind: 2
+  Stage: 0
+  ActiveDurations:
+    - 8
+    - 9.33
+    - 10.67
+    - 12
+  ToxicityCosts:
+    - 25
+    - 21.67
+    - 18.33
+    - 15
+  IngestionSeconds:
+    - 0.6
+    - 0.5
+    - 0.4
+    - 0.3
+  CooldownSeconds:
+    - 30
+    - 26.67
+    - 23.33
+    - 20
+  MaxCharges:
+    - 1
+    - 1
+    - 2
+    - 2
